@@ -7,7 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		341438112129B9F9006F0037 /* DBRouteUtility.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 341438102129B9F9006F0037 /* DBRouteUtility.cpp */; };
+		341438132129CCA7006F0037 /* DBDNSMessage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 341438122129CCA7006F0037 /* DBDNSMessage.cpp */; };
 		3458E86720BA166500CE9DAF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3458E86620BA166500CE9DAF /* main.cpp */; };
+		3458E88620BDF44B00CE9DAF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3458E88520BDF44B00CE9DAF /* main.cpp */; };
+		3458E88D20C0892A00CE9DAF /* libcurl.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3458E88C20C0892A00CE9DAF /* libcurl.tbd */; };
+		3458E88F20C090AC00CE9DAF /* DBRoutingSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3458E88E20C090AC00CE9DAF /* DBRoutingSystem.cpp */; };
+		3487C9B72129D3A600A9F773 /* DBUtility.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3487C9B62129D3A600A9F773 /* DBUtility.cpp */; };
+		3487C9B92129D45C00A9F773 /* DBDoHResolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3487C9B82129D45C00A9F773 /* DBDoHResolver.cpp */; };
+		3487C9BB212AE11F00A9F773 /* DBFilteringSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3487C9BA212AE11F00A9F773 /* DBFilteringSystem.cpp */; };
+		3487C9BF212AED1F00A9F773 /* DBCommon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3487C9BE212AED1F00A9F773 /* DBCommon.cpp */; };
+		3487C9C9212B7EBE00A9F773 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3487C9C8212B7EBE00A9F773 /* main.cpp */; };
+		3487C9CF212BB80E00A9F773 /* DBScriptRunner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3487C9CD212BB80E00A9F773 /* DBScriptRunner.cpp */; };
+		348BB6F020F01B780048EBBC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 348BB6EF20F01B780048EBBC /* main.cpp */; };
+		34BD1E79212D1377003D4A3F /* DBUDPResolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 34BD1E77212D1377003D4A3F /* DBUDPResolver.cpp */; };
+		34BD1E84212DBA9F003D4A3F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 34BD1E83212DBA9F003D4A3F /* main.cpp */; };
+		34BD1E89212F2647003D4A3F /* DBDNSMessage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 341438122129CCA7006F0037 /* DBDNSMessage.cpp */; };
+		34BD1E8A212F2657003D4A3F /* DBUtility.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3487C9B62129D3A600A9F773 /* DBUtility.cpp */; };
+		34CC758D21210AFE00935C16 /* libSystem.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 34CC758C21210AFE00935C16 /* libSystem.tbd */; };
+		34CC75AD2123549000935C16 /* DBDNSHypervisor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 34CC75AC2123549000935C16 /* DBDNSHypervisor.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -20,15 +38,127 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		3458E88120BDF44B00CE9DAF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		3487C9C4212B7EBD00A9F773 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		348BB6EB20F01B780048EBBC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		34BD1E7F212DBA9F003D4A3F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3414380F2129B9F9006F0037 /* DBRouteUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBRouteUtility.h; sourceTree = "<group>"; };
+		341438102129B9F9006F0037 /* DBRouteUtility.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DBRouteUtility.cpp; sourceTree = "<group>"; };
+		341438122129CCA7006F0037 /* DBDNSMessage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DBDNSMessage.cpp; sourceTree = "<group>"; };
+		342A2DF62128B0E700BD1350 /* DBDoHResolver.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DBDoHResolver.hpp; sourceTree = "<group>"; };
+		342A2DF72129329100BD1350 /* libpcre.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libpcre.tbd; path = usr/lib/libpcre.tbd; sourceTree = SDKROOT; };
 		3458E86320BA166500CE9DAF /* DNS with Benefits */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "DNS with Benefits"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3458E86620BA166500CE9DAF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		3458E86E20BA283F00CE9DAF /* DBMatchSystem.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DBMatchSystem.hpp; sourceTree = "<group>"; };
+		3458E87120BA284E00CE9DAF /* DBRadixTrie.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DBRadixTrie.hpp; sourceTree = "<group>"; };
+		3458E87420BA287100CE9DAF /* DBRoutingSystem.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DBRoutingSystem.hpp; sourceTree = "<group>"; };
+		3458E87720BA289800CE9DAF /* DBDNSServer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DBDNSServer.hpp; sourceTree = "<group>"; };
+		3458E87A20BA28A300CE9DAF /* DBDNSResolver.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DBDNSResolver.hpp; sourceTree = "<group>"; };
+		3458E87D20BB04FF00CE9DAF /* DBDNSMessage.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DBDNSMessage.hpp; sourceTree = "<group>"; };
+		3458E88320BDF44B00CE9DAF /* DevTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DevTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3458E88520BDF44B00CE9DAF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		3458E88A20BF48BA00CE9DAF /* DBCommon.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DBCommon.hpp; sourceTree = "<group>"; };
+		3458E88C20C0892A00CE9DAF /* libcurl.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libcurl.tbd; path = usr/lib/libcurl.tbd; sourceTree = SDKROOT; };
+		3458E88E20C090AC00CE9DAF /* DBRoutingSystem.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DBRoutingSystem.cpp; sourceTree = "<group>"; };
+		3483656C20DFD47C00AB2A89 /* DBFilteringSystem.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DBFilteringSystem.hpp; sourceTree = "<group>"; };
+		3483657420DFD78C00AB2A89 /* DBFilteringController.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DBFilteringController.hpp; sourceTree = "<group>"; };
+		3483657820DFE95F00AB2A89 /* DBDNSHypervisor.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DBDNSHypervisor.hpp; sourceTree = "<group>"; };
+		3483657C20DFF65300AB2A89 /* DBThreadingSystem.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DBThreadingSystem.hpp; sourceTree = "<group>"; };
+		3487C9B62129D3A600A9F773 /* DBUtility.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DBUtility.cpp; sourceTree = "<group>"; };
+		3487C9B82129D45C00A9F773 /* DBDoHResolver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DBDoHResolver.cpp; sourceTree = "<group>"; };
+		3487C9BA212AE11F00A9F773 /* DBFilteringSystem.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DBFilteringSystem.cpp; sourceTree = "<group>"; };
+		3487C9BC212AE2E700A9F773 /* DBRadixTrieImp.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DBRadixTrieImp.hpp; sourceTree = "<group>"; };
+		3487C9BE212AED1F00A9F773 /* DBCommon.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DBCommon.cpp; sourceTree = "<group>"; };
+		3487C9C0212AEE5600A9F773 /* DBMatchSystemImp.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DBMatchSystemImp.hpp; sourceTree = "<group>"; };
+		3487C9C6212B7EBD00A9F773 /* system_test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = system_test; sourceTree = BUILT_PRODUCTS_DIR; };
+		3487C9C8212B7EBE00A9F773 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		3487C9CD212BB80E00A9F773 /* DBScriptRunner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DBScriptRunner.cpp; sourceTree = "<group>"; };
+		3487C9CE212BB80E00A9F773 /* DBScriptRunner.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DBScriptRunner.hpp; sourceTree = "<group>"; };
+		348BB6ED20F01B780048EBBC /* RadixTreeBenchmark */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RadixTreeBenchmark; sourceTree = BUILT_PRODUCTS_DIR; };
+		348BB6EF20F01B780048EBBC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		348BB6F420F6446E0048EBBC /* libdispatch.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libdispatch.tbd; path = usr/lib/system/introspection/libdispatch.tbd; sourceTree = SDKROOT; };
+		348BB6F620F64DC30048EBBC /* Exception.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Exception.hpp; sourceTree = "<group>"; };
+		34AEB1CA20C2CE2400913100 /* DBCircularBuffer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DBCircularBuffer.hpp; sourceTree = "<group>"; };
+		34BD1E77212D1377003D4A3F /* DBUDPResolver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DBUDPResolver.cpp; sourceTree = "<group>"; };
+		34BD1E78212D1377003D4A3F /* DBUDPResolver.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DBUDPResolver.hpp; sourceTree = "<group>"; };
+		34BD1E7A212DB3FC003D4A3F /* DBDoTResolver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DBDoTResolver.cpp; sourceTree = "<group>"; };
+		34BD1E7B212DB3FC003D4A3F /* DBDoTResolver.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DBDoTResolver.hpp; sourceTree = "<group>"; };
+		34BD1E81212DBA9F003D4A3F /* openssl_test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = openssl_test; sourceTree = BUILT_PRODUCTS_DIR; };
+		34BD1E83212DBA9F003D4A3F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		34BD1E88212E412C003D4A3F /* DBDNSResolverDoH.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DBDNSResolverDoH.hpp; sourceTree = "<group>"; };
+		34CC758C21210AFE00935C16 /* libSystem.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libSystem.tbd; path = usr/lib/libSystem.tbd; sourceTree = SDKROOT; };
+		34CC75AB21228B8C00935C16 /* DBUtility.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DBUtility.hpp; sourceTree = "<group>"; };
+		34CC75AC2123549000935C16 /* DBDNSHypervisor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DBDNSHypervisor.cpp; sourceTree = "<group>"; };
+		34CC75AE2123820800935C16 /* cxxopts.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = cxxopts.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		3458E86020BA166500CE9DAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34CC758D21210AFE00935C16 /* libSystem.tbd in Frameworks */,
+				3458E88D20C0892A00CE9DAF /* libcurl.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3458E88020BDF44B00CE9DAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3487C9C3212B7EBD00A9F773 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		348BB6EA20F01B780048EBBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34BD1E7E212DBA9F003D4A3F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,7 +172,12 @@
 			isa = PBXGroup;
 			children = (
 				3458E86520BA166500CE9DAF /* DNS with Benefits */,
+				3458E88420BDF44B00CE9DAF /* DevTest */,
+				348BB6EE20F01B780048EBBC /* RadixTreeBenchmark */,
+				3487C9C7212B7EBE00A9F773 /* system_test */,
+				34BD1E82212DBA9F003D4A3F /* openssl_test */,
 				3458E86420BA166500CE9DAF /* Products */,
+				3458E88B20C0892A00CE9DAF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -50,6 +185,10 @@
 			isa = PBXGroup;
 			children = (
 				3458E86320BA166500CE9DAF /* DNS with Benefits */,
+				3458E88320BDF44B00CE9DAF /* DevTest */,
+				348BB6ED20F01B780048EBBC /* RadixTreeBenchmark */,
+				3487C9C6212B7EBD00A9F773 /* system_test */,
+				34BD1E81212DBA9F003D4A3F /* openssl_test */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,9 +196,86 @@
 		3458E86520BA166500CE9DAF /* DNS with Benefits */ = {
 			isa = PBXGroup;
 			children = (
+				34CC75AE2123820800935C16 /* cxxopts.hpp */,
 				3458E86620BA166500CE9DAF /* main.cpp */,
+				3458E86E20BA283F00CE9DAF /* DBMatchSystem.hpp */,
+				3487C9C0212AEE5600A9F773 /* DBMatchSystemImp.hpp */,
+				3458E87120BA284E00CE9DAF /* DBRadixTrie.hpp */,
+				3487C9BC212AE2E700A9F773 /* DBRadixTrieImp.hpp */,
+				3458E87420BA287100CE9DAF /* DBRoutingSystem.hpp */,
+				3458E88E20C090AC00CE9DAF /* DBRoutingSystem.cpp */,
+				3487C9CE212BB80E00A9F773 /* DBScriptRunner.hpp */,
+				3487C9CD212BB80E00A9F773 /* DBScriptRunner.cpp */,
+				3414380F2129B9F9006F0037 /* DBRouteUtility.h */,
+				341438102129B9F9006F0037 /* DBRouteUtility.cpp */,
+				3458E87720BA289800CE9DAF /* DBDNSServer.hpp */,
+				3483657820DFE95F00AB2A89 /* DBDNSHypervisor.hpp */,
+				34CC75AC2123549000935C16 /* DBDNSHypervisor.cpp */,
+				3483657420DFD78C00AB2A89 /* DBFilteringController.hpp */,
+				3483657C20DFF65300AB2A89 /* DBThreadingSystem.hpp */,
+				3483656C20DFD47C00AB2A89 /* DBFilteringSystem.hpp */,
+				3487C9BA212AE11F00A9F773 /* DBFilteringSystem.cpp */,
+				34AEB1CA20C2CE2400913100 /* DBCircularBuffer.hpp */,
+				3458E88A20BF48BA00CE9DAF /* DBCommon.hpp */,
+				3487C9BE212AED1F00A9F773 /* DBCommon.cpp */,
+				34CC75AB21228B8C00935C16 /* DBUtility.hpp */,
+				3487C9B62129D3A600A9F773 /* DBUtility.cpp */,
+				348BB6F620F64DC30048EBBC /* Exception.hpp */,
+				3458E87D20BB04FF00CE9DAF /* DBDNSMessage.hpp */,
+				341438122129CCA7006F0037 /* DBDNSMessage.cpp */,
+				3458E87A20BA28A300CE9DAF /* DBDNSResolver.hpp */,
+				34BD1E88212E412C003D4A3F /* DBDNSResolverDoH.hpp */,
+				342A2DF62128B0E700BD1350 /* DBDoHResolver.hpp */,
+				3487C9B82129D45C00A9F773 /* DBDoHResolver.cpp */,
+				34BD1E77212D1377003D4A3F /* DBUDPResolver.cpp */,
+				34BD1E78212D1377003D4A3F /* DBUDPResolver.hpp */,
+				34BD1E7A212DB3FC003D4A3F /* DBDoTResolver.cpp */,
+				34BD1E7B212DB3FC003D4A3F /* DBDoTResolver.hpp */,
 			);
 			path = "DNS with Benefits";
+			sourceTree = "<group>";
+		};
+		3458E88420BDF44B00CE9DAF /* DevTest */ = {
+			isa = PBXGroup;
+			children = (
+				3458E88520BDF44B00CE9DAF /* main.cpp */,
+			);
+			path = DevTest;
+			sourceTree = "<group>";
+		};
+		3458E88B20C0892A00CE9DAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				342A2DF72129329100BD1350 /* libpcre.tbd */,
+				34CC758C21210AFE00935C16 /* libSystem.tbd */,
+				348BB6F420F6446E0048EBBC /* libdispatch.tbd */,
+				3458E88C20C0892A00CE9DAF /* libcurl.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3487C9C7212B7EBE00A9F773 /* system_test */ = {
+			isa = PBXGroup;
+			children = (
+				3487C9C8212B7EBE00A9F773 /* main.cpp */,
+			);
+			path = system_test;
+			sourceTree = "<group>";
+		};
+		348BB6EE20F01B780048EBBC /* RadixTreeBenchmark */ = {
+			isa = PBXGroup;
+			children = (
+				348BB6EF20F01B780048EBBC /* main.cpp */,
+			);
+			path = RadixTreeBenchmark;
+			sourceTree = "<group>";
+		};
+		34BD1E82212DBA9F003D4A3F /* openssl_test */ = {
+			isa = PBXGroup;
+			children = (
+				34BD1E83212DBA9F003D4A3F /* main.cpp */,
+			);
+			path = openssl_test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +298,74 @@
 			productReference = 3458E86320BA166500CE9DAF /* DNS with Benefits */;
 			productType = "com.apple.product-type.tool";
 		};
+		3458E88220BDF44B00CE9DAF /* DevTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3458E88720BDF44B00CE9DAF /* Build configuration list for PBXNativeTarget "DevTest" */;
+			buildPhases = (
+				3458E87F20BDF44B00CE9DAF /* Sources */,
+				3458E88020BDF44B00CE9DAF /* Frameworks */,
+				3458E88120BDF44B00CE9DAF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DevTest;
+			productName = DevTest;
+			productReference = 3458E88320BDF44B00CE9DAF /* DevTest */;
+			productType = "com.apple.product-type.tool";
+		};
+		3487C9C5212B7EBD00A9F773 /* system_test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3487C9CA212B7EBE00A9F773 /* Build configuration list for PBXNativeTarget "system_test" */;
+			buildPhases = (
+				3487C9C2212B7EBD00A9F773 /* Sources */,
+				3487C9C3212B7EBD00A9F773 /* Frameworks */,
+				3487C9C4212B7EBD00A9F773 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = system_test;
+			productName = system_test;
+			productReference = 3487C9C6212B7EBD00A9F773 /* system_test */;
+			productType = "com.apple.product-type.tool";
+		};
+		348BB6EC20F01B780048EBBC /* RadixTreeBenchmark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 348BB6F320F01B780048EBBC /* Build configuration list for PBXNativeTarget "RadixTreeBenchmark" */;
+			buildPhases = (
+				348BB6E920F01B780048EBBC /* Sources */,
+				348BB6EA20F01B780048EBBC /* Frameworks */,
+				348BB6EB20F01B780048EBBC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RadixTreeBenchmark;
+			productName = RadixTreeBenchmark;
+			productReference = 348BB6ED20F01B780048EBBC /* RadixTreeBenchmark */;
+			productType = "com.apple.product-type.tool";
+		};
+		34BD1E80212DBA9F003D4A3F /* openssl_test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34BD1E85212DBA9F003D4A3F /* Build configuration list for PBXNativeTarget "openssl_test" */;
+			buildPhases = (
+				34BD1E7D212DBA9F003D4A3F /* Sources */,
+				34BD1E7E212DBA9F003D4A3F /* Frameworks */,
+				34BD1E7F212DBA9F003D4A3F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = openssl_test;
+			productName = openssl_test;
+			productReference = 34BD1E81212DBA9F003D4A3F /* openssl_test */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -93,6 +377,18 @@
 				TargetAttributes = {
 					3458E86220BA166500CE9DAF = {
 						CreatedOnToolsVersion = 9.3.1;
+					};
+					3458E88220BDF44B00CE9DAF = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					3487C9C5212B7EBD00A9F773 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					348BB6EC20F01B780048EBBC = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					34BD1E80212DBA9F003D4A3F = {
+						CreatedOnToolsVersion = 10.0;
 					};
 				};
 			};
@@ -109,6 +405,10 @@
 			projectRoot = "";
 			targets = (
 				3458E86220BA166500CE9DAF /* DNS with Benefits */,
+				3458E88220BDF44B00CE9DAF /* DevTest */,
+				348BB6EC20F01B780048EBBC /* RadixTreeBenchmark */,
+				3487C9C5212B7EBD00A9F773 /* system_test */,
+				34BD1E80212DBA9F003D4A3F /* openssl_test */,
 			);
 		};
 /* End PBXProject section */
@@ -118,7 +418,51 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34CC75AD2123549000935C16 /* DBDNSHypervisor.cpp in Sources */,
 				3458E86720BA166500CE9DAF /* main.cpp in Sources */,
+				34BD1E79212D1377003D4A3F /* DBUDPResolver.cpp in Sources */,
+				3487C9B72129D3A600A9F773 /* DBUtility.cpp in Sources */,
+				341438132129CCA7006F0037 /* DBDNSMessage.cpp in Sources */,
+				3487C9CF212BB80E00A9F773 /* DBScriptRunner.cpp in Sources */,
+				341438112129B9F9006F0037 /* DBRouteUtility.cpp in Sources */,
+				3458E88F20C090AC00CE9DAF /* DBRoutingSystem.cpp in Sources */,
+				3487C9B92129D45C00A9F773 /* DBDoHResolver.cpp in Sources */,
+				3487C9BB212AE11F00A9F773 /* DBFilteringSystem.cpp in Sources */,
+				3487C9BF212AED1F00A9F773 /* DBCommon.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3458E87F20BDF44B00CE9DAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3458E88620BDF44B00CE9DAF /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3487C9C2212B7EBD00A9F773 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3487C9C9212B7EBE00A9F773 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		348BB6E920F01B780048EBBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				348BB6F020F01B780048EBBC /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34BD1E7D212DBA9F003D4A3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34BD1E8A212F2657003D4A3F /* DBUtility.cpp in Sources */,
+				34BD1E89212F2647003D4A3F /* DBDNSMessage.cpp in Sources */,
+				34BD1E84212DBA9F003D4A3F /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,8 +581,32 @@
 		3458E86B20BA166500CE9DAF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CC = "";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
 				CODE_SIGN_STYLE = Automatic;
+				COMPILER_INDEX_STORE_ENABLE = Default;
 				DEVELOPMENT_TEAM = Y6S55Z4M8V;
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = (
+					/usr/local/opt/pcre/include,
+					"/usr/local/opt/openssl@1.1/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system/introspection",
+					"/usr/local/opt/openssl@1.1/lib",
+					/usr/local/opt/pcre/lib,
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-fcxx-modules",
+				);
+				OTHER_LDFLAGS = (
+					"-lcrypto",
+					"-lssl",
+					"-lpcrecpp",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -246,8 +614,127 @@
 		3458E86C20BA166500CE9DAF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CC = "";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_STYLE = Automatic;
+				COMPILER_INDEX_STORE_ENABLE = Default;
+				DEVELOPMENT_TEAM = Y6S55Z4M8V;
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = (
+					/usr/local/opt/pcre/include,
+					"/usr/local/opt/openssl@1.1/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system/introspection",
+					"/usr/local/opt/openssl@1.1/lib",
+					/usr/local/opt/pcre/lib,
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-fcxx-modules",
+				);
+				OTHER_LDFLAGS = (
+					"-lcrypto",
+					"-lssl",
+					"-lpcrecpp",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3458E88820BDF44B00CE9DAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y6S55Z4M8V;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3458E88920BDF44B00CE9DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y6S55Z4M8V;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3487C9CB212B7EBE00A9F773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y6S55Z4M8V;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3487C9CC212B7EBE00A9F773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y6S55Z4M8V;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		348BB6F120F01B780048EBBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y6S55Z4M8V;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		348BB6F220F01B780048EBBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y6S55Z4M8V;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		34BD1E86212DBA9F003D4A3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y6S55Z4M8V;
+				HEADER_SEARCH_PATHS = "/usr/local/opt/openssl@1.1/include";
+				LIBRARY_SEARCH_PATHS = "/usr/local/opt/openssl@1.1/lib";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				OTHER_LDFLAGS = (
+					"-lssl",
+					"-lcrypto",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		34BD1E87212DBA9F003D4A3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y6S55Z4M8V;
+				HEADER_SEARCH_PATHS = "/usr/local/opt/openssl@1.1/include";
+				LIBRARY_SEARCH_PATHS = "/usr/local/opt/openssl@1.1/lib";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				OTHER_LDFLAGS = (
+					"-lssl",
+					"-lcrypto",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -269,6 +756,42 @@
 			buildConfigurations = (
 				3458E86B20BA166500CE9DAF /* Debug */,
 				3458E86C20BA166500CE9DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3458E88720BDF44B00CE9DAF /* Build configuration list for PBXNativeTarget "DevTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3458E88820BDF44B00CE9DAF /* Debug */,
+				3458E88920BDF44B00CE9DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3487C9CA212B7EBE00A9F773 /* Build configuration list for PBXNativeTarget "system_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3487C9CB212B7EBE00A9F773 /* Debug */,
+				3487C9CC212B7EBE00A9F773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		348BB6F320F01B780048EBBC /* Build configuration list for PBXNativeTarget "RadixTreeBenchmark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				348BB6F120F01B780048EBBC /* Debug */,
+				348BB6F220F01B780048EBBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34BD1E85212DBA9F003D4A3F /* Build configuration list for PBXNativeTarget "openssl_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34BD1E86212DBA9F003D4A3F /* Debug */,
+				34BD1E87212DBA9F003D4A3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
